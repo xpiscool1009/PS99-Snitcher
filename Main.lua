@@ -7,7 +7,7 @@ local isScriptLoaded = false
 -- Load the script if it isn't loaded yet
 local function LoadScript()
     -- Ensure the MyScriptURL contains the correct GitHub URL
-    local myScriptURL = "https://raw.githubusercontent.com/yourusername/PS99-Snitcher/main/Scripts/Main.lua"
+    local myScriptURL = "https://raw.githubusercontent.com/xpiscool1009/PS99-Snitcher/refs/heads/main/Main.lua"
 
     -- Load the script via HTTP Request
     local request = game:HttpGet(myScriptURL)
